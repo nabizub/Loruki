@@ -8,7 +8,7 @@
   --dark-color: #002240;
   --light-color: #f4f4f4;
 }
-/* *End */
+/* ^End */
 
 
 /* *General Styling */
@@ -46,7 +46,7 @@ p {
 img {
   width: 100%;
 }
-/* *End */
+/* ^End */
 
 
 /* *Navbar styling */
@@ -78,7 +78,7 @@ img {
   justify-content: space-between;
   /* space-between moves the logo to the left and navbar elements to the right*/
 }
-/* *End */
+/* ^End */
 
 
 /* *Showcase styling */
@@ -146,7 +146,7 @@ img {
   /* -moz-transform: skewY(-3deg); */
   /* -ms-transform: skewY(-3deg); */
 }
-/* *End */
+/* ^End */
 
 
 /* *Stats */
@@ -167,7 +167,7 @@ img {
   font-size: 20px;
   font-weight: bold;
 }
-/* *End */
+/* ^End */
 
 
 /* *CLI */
@@ -181,14 +181,14 @@ img {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
 }
-/* *End */
+/* ^End */
 
 
 /* *Cloud */
 .cloud .grid {
   grid-template-columns: 4fr 3fr;
 }
-/* *End */
+/* ^End */
 
 
 /* *Languages */
@@ -210,14 +210,14 @@ transition: transform 0.2s ease-in;
 .languages .card:hover {
   transform: translateY(-15px);
 }
-/* *End */
+/* ^End */
 
 
 /* *Footer */
 .footer .social a {
   margin: 0 10px;
 }
-/* /End */
+/* ^End */
 
 
 /* *Features */
@@ -253,7 +253,7 @@ transition: transform 0.2s ease-in;
     grid-row: 1;
   }
 }
-/* *End */
+/* ^End */
 
 
 /* *Mobile */
@@ -271,4 +271,4 @@ transition: transform 0.2s ease-in;
     background-color: rgba(0, 0, 0, .1);
   }
 }
-/* *End */
+/* ^End */

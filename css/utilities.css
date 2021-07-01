@@ -22,6 +22,8 @@
   padding: 20px;
   margin: 10px;
 }
+/* ^End */
+
 
 /* *Buttons */
 .btn {
@@ -44,9 +46,10 @@
 .btn:hover {
   transform: scale(.98);
 }
+/* ^End */
+
 
 /* *Backgrounds & colored button */
-
 .bg-primary, 
 .btn-primary {
   background-color: var(--primary-color);
@@ -77,6 +80,8 @@
 .btn-secondary a {
 color:#fff;
 }
+/* ^End */
+
 
 /* *Text sizes */
 .lead {
@@ -98,6 +103,7 @@ color:#fff;
 xl {
   font-size: 4rem;
 }
+/* ^End */
 
 
 /* *Nav Flexbox */
@@ -112,6 +118,7 @@ xl {
   /* BC we are using a row for the navbar*/
   height: 100%;
 }
+/* ^End */
 
 
 /* *Flex Grid */
@@ -122,7 +129,7 @@ xl {
   justify-content: center;
   align-items: center;
   /* height sets the whole grid to the max height of its container, which is defined in
-  *  .showcase as 400px
+    .showcase as 400px
   */
   height: 100%; 
 }
@@ -130,10 +137,10 @@ xl {
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
 }
+/* ^End */
 
 
 /* *Margin */
-
 .my-1 {
   margin: 1rem 0;
 }
@@ -169,10 +176,10 @@ xl {
 .m-5 {
   margin: 4rem;
 }
+/* ^End */
 
 
 /* *Padding */
-
 .py-1 {
   padding: 1rem 0;
 }
@@ -209,3 +216,4 @@ padding: 1.5rem 0;
 .p-5 {
   margin: 4rem;
 }
+/* ^End */
