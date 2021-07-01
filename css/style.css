@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 /* *Variables*/
-
 :root {
   /* Making a variable in CSS, primary-color is the variable */
   --primary-color: #047aed;
@@ -9,9 +8,10 @@
   --dark-color: #002240;
   --light-color: #f4f4f4;
 }
+/* *End */
+
 
 /* *General Styling */
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -46,9 +46,10 @@ p {
 img {
   width: 100%;
 }
+/* *End */
+
 
 /* *Navbar styling */
-
 .navbar {
   /*around container div*/
   background-color: var(--primary-color);
@@ -77,9 +78,10 @@ img {
   justify-content: space-between;
   /* space-between moves the logo to the left and navbar elements to the right*/
 }
+/* *End */
+
 
 /* *Showcase styling */
-
 .showcase{
   height: 400px;
   background-color: var(--primary-color);
@@ -144,9 +146,10 @@ img {
   /* -moz-transform: skewY(-3deg); */
   /* -ms-transform: skewY(-3deg); */
 }
+/* *End */
+
 
 /* *Stats */
-
 .stats {
   padding-top: 100px;
 }
@@ -164,9 +167,10 @@ img {
   font-size: 20px;
   font-weight: bold;
 }
+/* *End */
+
 
 /* *CLI */
-
 .cli .grid {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -177,11 +181,15 @@ img {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
 }
+/* *End */
+
 
 /* *Cloud */
 .cloud .grid {
   grid-template-columns: 4fr 3fr;
 }
+/* *End */
+
 
 /* *Languages */
 .languages .flex {
@@ -202,11 +210,17 @@ transition: transform 0.2s ease-in;
 .languages .card:hover {
   transform: translateY(-15px);
 }
+/* *End */
+
 
 /* *Footer */
 .footer .social a {
   margin: 0 10px;
 }
+/* /End */
+
+
+/* *Features */
 
 /* *Queries for Tablets and Under */
 @media (max-width: 768px) {
@@ -239,6 +253,8 @@ transition: transform 0.2s ease-in;
     grid-row: 1;
   }
 }
+/* *End */
+
 
 /* *Mobile */
 @media(max-width: 500px) {
@@ -255,3 +271,4 @@ transition: transform 0.2s ease-in;
     background-color: rgba(0, 0, 0, .1);
   }
 }
+/* *End */
